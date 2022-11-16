@@ -22,7 +22,7 @@ use tracing::{trace, info, error};
 /// Test a pam service and how it behaves.
 pub struct Opt {
     /// Optionally pre-enter the password for the account to test.
-    #[clap(short='W')]
+    #[clap(short='w')]
     pub password: Option<String>,
 
     /// The name of the pam service to interact with. This is generally linked to the
